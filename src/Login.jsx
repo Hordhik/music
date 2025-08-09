@@ -7,7 +7,7 @@ export const Login = () => {
       <div className="login-card text-center">
         <div className="card-body">
           <div className="logo-container">
-            <img src="/Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
+            <img src="/music/Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
           </div>
           <h2 className="login-title">Welcome Back</h2>
           <p className="login-subtitle">Log in to continue to Music</p>

@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Current = () => {
   return (
@@ -6,18 +5,18 @@ export const Current = () => {
             <div className='currently_playing_container'>
               <div className='content_wrapper d-flex flex-column justify-content-start align-items-center text-center'>
                 <div className='d-flex flex-row justify-content-between align-items-left w-100 px-3'>
-                  <h4 className='library_text'>Varadha's One Man Army - Salaar</h4>
+                  <h4 className='library_text'>Varadhas One Man Army - Salaar</h4>
                   <div className='icon_group d-flex'>
                     <i className="fa-solid fa-ellipsis options_icon" title="More options"></i>
                     <i className="fa-solid fa-x close_icon" title="Close"></i>
                   </div>
                 </div>
                 <div >
-                  <img src="/albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
+                  <img src="/music/albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
                 </div>
                 <div className='track_details'>
                 <div className="song_info">
-                  <h4 className='track_title'>Varadha's One Man Army</h4>
+                  <h4 className='track_title'>Varadhas One Man Army</h4>
                 </div>
                 <p className='artist_name'>Ravi Basrur</p>
               </div>

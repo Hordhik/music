@@ -1,4 +1,3 @@
-import React from 'react'
 import "./LandingPage.css" 
 
 export const Library = () => {
@@ -33,7 +32,7 @@ export const Library = () => {
             <div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/music/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Liked Songs</h4>
                       <p className='role play_list_album_para'>
@@ -45,7 +44,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/allTimeHindhi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/music/albums/allTimeHindhi.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>All Time Top 50</h4>
                       <p className='role play_list_album_para'>
