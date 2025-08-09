@@ -12,7 +12,7 @@ function App() {
   const location = useLocation()
 
   useEffect(() => {
-    if (location.pathname === '/login' || location.pathname === '/signup') {
+    if (location.pathname === '/music/login' || location.pathname === '/music/signup') {
       setIsLoggedIn(true)
     } else {
       setIsLoggedIn(false)

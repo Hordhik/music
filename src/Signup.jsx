@@ -22,7 +22,7 @@ export const Signup = () => {
       return;
     }
     // Submit logic here
-    window.location.href = "/home";
+    window.location.href = "/music/home";
   };
 
   return (
@@ -30,7 +30,7 @@ export const Signup = () => {
       <div className="login-card text-center">
         <div className="card-body">
           <div className="logo-container">
-            <img src="Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
+            <img src="/music/Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
           </div>
           <h2 className="login-title">Create an Account</h2>
           <p className="login-subtitle">Sign up to start your journey with Music</p>

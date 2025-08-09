@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Navbar.css"
 
@@ -11,7 +10,7 @@ export const Navbar = () => {
       </button>
       <a className="navbar-brand" href="#">
         <h1 className="d-flex flex-row justify-content-centre">
-          <img src="Icons_music_platform/icon_logo.png" alt="logo" className="logo" />
+          <img src="/music/Icons_music_platform/icon_logo.png" alt="logo" className="logo" />
         </h1>
       </a>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">

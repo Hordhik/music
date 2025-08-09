@@ -7,15 +7,15 @@ export const Player = () => {
   const playlist = [
     {
       title: "Vardha's One Man Army",
-      src: "/songs/SpotiDownloader.com - Vardha's One Man Army - Ravi Basrur.mp3"
+      src: "/music/songs/SpotiDownloader.com - Vardha's One Man Army - Ravi Basrur.mp3"
     },
     {
       title: "Adiga Adiga",
-      src: "/songs/SpotiDownloader.com - Adiga Adiga - Sid Sriram.mp3"
+      src: "/music/songs/SpotiDownloader.com - Adiga Adiga - Sid Sriram.mp3"
     },
     {
       title: "Rock On Bro",
-      src: "/songs/SpotiDownloader.com - Rock On Bro - Raghu Dixit.mp3"
+      src: "/music/songs/SpotiDownloader.com - Rock On Bro - Raghu Dixit.mp3"
     }
     // Add more songs here as needed
   ];
@@ -74,7 +74,7 @@ export const Player = () => {
         audio.removeEventListener('ended', onEnded);
       }
     };
-  }, [currentSongIndex]);
+  }, [currentSongIndex, skipForward]);
 
   useEffect(() => {
     if (isPlaying) {
@@ -82,7 +82,7 @@ export const Player = () => {
     } else {
       audioRef.current.pause();
     }
-  }, [currentSongIndex]);
+  }, [currentSongIndex, isPlaying]);
 
   const handleSeek = (e) => {
     const newTime = parseFloat(e.target.value);
