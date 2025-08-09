@@ -3,14 +3,10 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import { BrowserRouter } from 'react-router-dom';
 
-// Dynamically set the basename based on the current URL path
-const basename = window.location.pathname.includes('Music_Streaming_Platform') 
-  ? '/Music_Streaming_Platform' 
-  : '/';
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename={basename}>
+    {/* Set the basename to your repository name */}
+    <BrowserRouter basename="/music/">
       <App />
     </BrowserRouter>
   </StrictMode>
