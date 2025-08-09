@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react'
-import React from 'react'
 import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
-import './index.css'
 import { LandingPage } from './LandingPage'
 import { Login } from './Login'
 import { Signup } from './Signup' // Import the Signup component

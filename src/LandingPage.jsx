@@ -3,8 +3,6 @@ import "./LandingPage.css"
 import { Library } from './Library';
 import { Midland } from './Midland';
 import { Current } from './Current';
-import { Link } from 'react-router-dom'
-import { useState } from 'react'
 export const LandingPage = () => {
 
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Login.css";
 import { Link } from 'react-router-dom';
 
@@ -8,7 +7,7 @@ export const Login = () => {
       <div className="login-card text-center">
         <div className="card-body">
           <div className="logo-container">
-            <img src="Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
+            <img src="/Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
           </div>
           <h2 className="login-title">Welcome Back</h2>
           <p className="login-subtitle">Log in to continue to Music</p>
@@ -45,7 +44,7 @@ export const Login = () => {
             </Link>
           </form>
 
-          <p className="signup-text">Don't have an account? <Link to="/signup">Sign Up</Link></p>
+          <p className="signup-text">Don&apos;t have an account? <Link to="/signup">Sign Up</Link></p>
         </div>
       </div>
     </div>
